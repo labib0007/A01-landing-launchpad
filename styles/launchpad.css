@@ -77,6 +77,36 @@ nav{
 }
 
 
+/* See It Section Styles */
 
+.see-it{
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 159px 115px 141px;
+  align-items: center;
+}
+
+.see-it-text{
+  margin: 50px 220px 70px 0px;
+
+}
+
+.section-title{
+font-size: 42px;
+font-weight: bold;
+color: #252432;
+}
+
+
+
+.see-it-description{
+  color:rgba(37, 36, 50, 0.5) ;
+  font-size: 24px;
+  align-items: left;
+}
+
+.see-it-pic{
+  border-radius: 48px;
+}
 
 

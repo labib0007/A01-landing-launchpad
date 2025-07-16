@@ -93,7 +93,7 @@ nav{
 main{
       max-width: 1100px;
   margin: 0  auto;
-  /* background-color: aqua; */
+ 
 }
 main section{
     margin-top: 115px;
@@ -182,3 +182,51 @@ main section{
   padding:0%; 
 }
 
+
+/* Users Feedback Styles */
+
+.feedback-container{
+  display: flex;
+gap: 20px;
+}
+
+.feedback-section-title{
+  margin-bottom: 50px;
+}
+
+.feedback
+{
+  padding: 24px 24px;
+ background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
+  border-color: rgba(242, 237, 237, 1);
+  box-shadow: 0px 6px 50px 0px rgba(141, 174, 250, 0.4);
+}
+
+.feedback-title{
+  color: rgb(30,30,30);
+  font-weight: bold;
+  font-size: larger;
+}
+
+.feedback-description
+{
+  
+}
+
+.reviewer-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+.reviewer-name
+{
+  color: rgb(90, 84, 84);
+  font-weight: bold;
+}
+
+.review-date{
+  color: gray;
+}

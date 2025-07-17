@@ -55,10 +55,7 @@ background-size: cover;
  height: 100vh;
  margin-top: 0px;
 
-
-
 }
-
 
 
 
@@ -268,12 +265,12 @@ gap: 20px;
     /* get in touch section tyles */
 
 
-
-
     .get-in-touch{
       display: flex;
+ 
       gap: 65px;
       align-items: center;
+      
     }
 
     .get-title
@@ -283,37 +280,54 @@ gap: 20px;
       color: #000000;
     }
 
-    .get-column
-    {
-      width: 50%;
-    }
+
 
      input[type="email"], input[type="text"], textarea{
 
-          height: 70px;
-          width: 400px;
+   
+          width: 380px;
+          border: 1px solid;
+           border-color: gainsboro;
           border-radius: 10px;
-          background-color:rgba(255, 255, 255, 1);
+           background-color: white; 
           display: block;
           padding: 20px 32px 20px 32px;
           margin: 20px 0px 10px 0px;
           
+          
 
      }
+
+
 
      input[type="submit"]
      {
       margin-top: 10px;
+      width: 450px;
+      height: 60px;
      }
-
+    
+    
      .input-name{
      
   font-family: "Inter", sans-serif;
   font-size: 18px;
    font-weight: 600;
   font-style: normal;
-
-
   
-
      }
+
+
+
+     /* footer styles
+
+     .footer-title
+     {
+    color: #4E47FF;
+      font-family: "Inter", sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+     } */
+
